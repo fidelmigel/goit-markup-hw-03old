@@ -8,6 +8,15 @@
 
 
 }
+/* Body*/
+.body {
+    background: var(--header-background-color);
+    font-family: 'Roboto';
+    letter-spacing: 0.03em;
+    font-size: 14px;
+}
+
+/* Header*/
 
 .logo {
     font-family: 'Raleway';
@@ -16,65 +25,55 @@
     line-height: 1.2;
     color: var(--accent-color);
     text-decoration: none;
-    }
-        
+}
+
 span.logo-color {
     color: #000000;
 }
-span.footer-logo-color {
-    color: var(--header-background-color);
-}
 
-    .visually-hidden {
-            position: absolute;
-            width: 1px;
-            height: 1px;
-            margin: -1px;
-            border: 0;
-            padding: 0;
-            white-space: nowrap;
-            clip-path: inset(100%);
-            clip: rect(0 0 0 0);
-            overflow: hidden;
-}
+
 
 .nav-link {
-            font-weight: 500;
-            line-height: 0.9;
-            letter-spacing: 0.02em; 
-            text-decoration: none;
-        
-                color:var(--title-text-color)
-        }
+    font-weight: 500;
+    line-height: 0.9;
+    letter-spacing: 0.02em;
+    text-decoration: none;
+
+    color: var(--title-text-color)
+}
+
 .nav-link:hover {
-                color:var(--accent-color);
-                }
-        
+    color: var(--accent-color);
+}
+
 .nav-link:focus {
-                color:var(--accent-color)
-    }
-    .nav-link:active {
-        color: var(--accent-color);
-    }
-        
-                li {
-            display: block;
-        }
-        .current {
-           color: var(--accent-color); 
-        }
+    color: var(--accent-color)
+}
+
+.nav-link:active {
+    color: var(--accent-color);
+}
+
+li {
+    display: block;
+}
+
+.current {
+    color: var(--accent-color);
+}
 
 .contact-link {
-font-weight: 500;
-line-height: 0.9;
-letter-spacing: 0.02em;
-text-decoration: none;
-color: var(--paragraf-text-color);
-} 
-        
-.contact-link:hover {
-    color:var(--accent-color);
+    font-weight: 500;
+    line-height: 0.9;
+    letter-spacing: 0.02em;
+    text-decoration: none;
+    color: var(--paragraf-text-color);
 }
+
+.contact-link:hover {
+    color: var(--accent-color);
+}
+
 .contact-link:focus {
     color: var(--accent-color)
 }
@@ -83,47 +82,131 @@ color: var(--paragraf-text-color);
     color: var(--accent-color);
 }
 
-.hero-button {
-color:var(--header-background-color);
-background-color:var(--accent-color);
-border: 0;
-cursor: pointer;
+
+
+/*Hero*/
+.hero {
+    background-color: var(--hero-footer-background-color)
 }
 
-.nav-button {
-    font-family:inherit;
+.hero-title {
+    font-weight: 900;
+    font-size: 44px;
+    line-height: 1.37;
+    color: var(--header-background-color);
+    text-align: center;
+    letter-spacing: 0.06em;
+    text-transform: uppercase;
+}
+ 
+.hero-button {
+    color: var(--header-background-color);
+    background-color: var(--accent-color);
+    border: 0;
+    cursor: pointer;
+} 
+
+/* WORK ABOUT*/
+.work-about {
+
+}
+
+.visually-hidden {
+position: absolute;
+width: 1px;
+height: 1px;
+margin: -1px;
+border: 0;
+padding: 0;
+white-space: nowrap;
+clip-path: inset(100%);
+clip: rect(0 0 0 0);
+overflow: hidden;
+}
+
+/* Чим ми займаємось*/
+.work-title-text {
+    text-transform: uppercase;
+    font-size: 14px;
+    line-height: 0.9;
+}
+
+.team-tasks {
+
+    line-height: 0.6;
+    color: var(--paragraf-text-color);
+}
+
+
+.section-title {
+    font-size: 36px;
+    line-height: 0.9;
+    text-align: center;
+}
+
+/* Наша команда*/
+
+.team {
+    background-color: var(--background-color);
+}
+
+.teammate {
+    background-color: var(--header-background-color);
+}
+
+.teame-name {
     font-weight: 500;
     font-size: 16px;
-    line-height: 0.6;
-    border: 0;
+    line-height: 0.8;
     text-align: center;
-    cursor: pointer;
+}
 
-    color: var(--title-text-color)
+.teame-position {
+    font-size: 16px;
+    line-height: 0.8;
+    text-align: center;
+    color: var(--paragraf-text-color);
+}
+
+/* Кнопки навігації в Portfolio*/
+
+.nav-button {
+font-family:inherit;
+font-weight: 500;
+font-size: 16px;
+line-height: 0.6;
+border: 0;
+text-align: center;
+cursor: pointer;
+
+color: var(--title-text-color)
 
 }
 .nav-button:hover {
-    color: var(--header-background-color);
-    background-color: var(--accent-color);
+color: var(--header-background-color);
+background-color: var(--accent-color);
     
 }
 .nav-button:focus {
-    color: var(--header-background-color);
-    background-color: var(--accent-color);
-}
-.hero {
-    background-color:var(--hero-footer-background-color)
-}
-.hero-title {
-font-weight: 900;
-font-size: 44px;
-line-height:1.37;
 color: var(--header-background-color);
-text-align: center;
-letter-spacing: 0.06em;
-text-transform: uppercase;
+background-color: var(--accent-color);
 }
 
+/* Приклади робіт в Portfolio */
+.example-name {
+    font-size: 18px;
+    line-height: 0.5;
+    letter-spacing: 0.06em;
+}
+
+.example-product {
+    font-size: 16px;
+    line-height: 0.5;
+    color: var(--paragraf-text-color);
+}
+
+
+/* FOOTER*/
 .page-footer {
 background: var(--hero-footer-background-color);
 
@@ -136,64 +219,15 @@ background: var(--hero-footer-background-color);
     color: var(--header-background-color) ;
 
 }
-.body{
-    background:var(--header-background-color);
-    font-family: 'Roboto';
-    letter-spacing: 0.03em;
-    font-size: 14px;
-}
-.work-about {
 
+span.footer-logo-color {
+    color: var(--header-background-color);
 }
 
-.work-title-text {
-    text-transform: uppercase;
-    font-size: 14px;
-    line-height: 0.9;
-    }
 
-.team-tasks {
-    
-        line-height: 0.6;
-        color: var(--paragraf-text-color);
-}
-.section-title {
-    font-size: 36px;
-    line-height: 0.9;
-    text-align: center;
-}
-.team {
-    background-color:var(--background-color) ;
-}
 
-.teammate {
-    background-color: var(--header-background-color);
-}
-.teame-name {
-    font-weight: 500;
-    font-size: 16px;
-    line-height: 0.8;
-    text-align: center;
-}
-.teame-position {
-    font-size: 16px;
-    line-height: 0.8;
-    text-align: center;
-    color: var(--paragraf-text-color);
-}
 
-.example-name {
-    font-size: 18px;
-    line-height: 0.5;
-    letter-spacing: 0.06em;
-}
-.example-product {
-    font-size: 16px;
-    line-height: 0.5;
-    color: var(--paragraf-text-color);
-}
 
-.bhg-color {
-    color: var(--paragraf-text-color);
-}
+
+
 
