@@ -8,6 +8,15 @@
 
 
 }
+html {
+    box-sizing: border-box;
+
+}
+*,
+*::before,
+*::after {
+    box-sizing: inherit;
+}
 /* Body*/
 .body {
     background: var(--header-background-color);
@@ -17,6 +26,21 @@
 }
 
 /* Header*/
+
+.nav-link-container {
+    width: 1230px;
+    height: 80px;
+     outline: 2px solid tomato;
+     margin-left: 200px;
+     margin-right: 200px;
+     padding-left: 15px;
+     padding-right: 15px;
+     display: inline-block;
+    border-top: 24px;
+    border-bottom: 25px;
+}
+
+
 
 .logo {
     font-family: 'Raleway';
