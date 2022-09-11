@@ -25,20 +25,33 @@ html {
     font-size: 14px;
 }
 
+.container {
+    width: 1200px;
+    outline: 2px solid tomato;
+    margin-left: auto;
+    margin-right: auto;
+
+}
+
+
+.list {
+    padding: 0;
+    margin-top: 0;
+    list-style: none;
+}
+
+.link {
+    font-style: normal;
+    text-decoration: none;
+    color: inherit;
+}
+
+
+
 /* Header*/
 
-.nav-link-container {
-    width: 1230px;
-    height: 80px;
-     outline: 2px solid tomato;
-     margin-left: 200px;
-     margin-right: 200px;
-     padding-left: 15px;
-     padding-right: 15px;
-     display: inline-block;
-    border-top: 24px;
-    border-bottom: 25px;
-}
+
+
 
 
 
@@ -55,38 +68,60 @@ span.logo-color {
     color: #000000;
 }
 
+.item  {
+    display:flex ;
+   
+}
+.site-contact {
+    display: flex;
+}
 
 
-.nav-link {
+
+.item.site-nav:last-child {
+    margin-right: 0;
+}
+
+
+
+
+
+
+
+.item {
     font-weight: 500;
     line-height: 0.9;
     letter-spacing: 0.02em;
     text-decoration: none;
+    
 
     color: var(--title-text-color)
+    
 }
 
-.nav-link:hover {
+.item:hover {
     color: var(--accent-color);
 }
 
-.nav-link:focus {
+.item:focus {
     color: var(--accent-color)
 }
 
-.nav-link:active {
+.item:active {
     color: var(--accent-color);
 }
 
 li {
     display: block;
+   
+    
 }
 
 .current {
     color: var(--accent-color);
 }
 
-.contact-link {
+.contact-list {
     font-weight: 500;
     line-height: 0.9;
     letter-spacing: 0.02em;
@@ -94,24 +129,34 @@ li {
     color: var(--paragraf-text-color);
 }
 
-.contact-link:hover {
+.contact-list:hover {
     color: var(--accent-color);
 }
 
-.contact-link:focus {
+.contact-list:focus {
     color: var(--accent-color)
 }
 
-.contact-link:active {
+.contact-list:active {
     color: var(--accent-color);
 }
+
+
+
 
 
 
 /*Hero*/
 .hero {
-    background-color: var(--hero-footer-background-color)
+    background-color: var(--hero-footer-background-color);
+    max-width: 1600px;
+    height: 600px;
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
 }
+
+
 
 .hero-title {
     font-weight: 900;
@@ -128,6 +173,10 @@ li {
     background-color: var(--accent-color);
     border: 0;
     cursor: pointer;
+    border-radius: 4px;
+    
+        
+        
 } 
 
 /* WORK ABOUT*/
