@@ -52,18 +52,28 @@
         color: inherit;
     }
 
-    .link.logo {
-        font-family: 'Raleway', sans-serif;
-        font-weight: 700;
-        font-style: normal;
-        font-size: 26px;
-        line-height: 1.2;
-        color: var(--logo-secondary-color);
-    }
+        .logo {
+            font-family: 'Raleway';
+            font-weight: 700;
+            font-size: 26px;
+            line-height: 1.2;
+            color: var(--primary-accent-color);
+            text-decoration: none;
+        }
+    
+        span.logo-color {
+            color: #000000;
+        }
+    
+        span.footer-logo-color {
+            color: var(--secondary-text-color);
+        }
 
-    .link.link.logo.accent {
-        color: var(--primary-accent-color);
-    }
+
+
+        
+        
+            
 
     /* Основний стиль кнопки*/
     .button {
