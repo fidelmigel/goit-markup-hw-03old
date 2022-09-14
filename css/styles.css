@@ -368,9 +368,10 @@
         color: var(--primary-accent-color);
     }
 
-    .footer .contacts .link.gmaps {
+    .item-adress{
         line-height: 1.71;
         color: var(--secondary-text-color);
+        font-style: normal;
     }
 
     .footer .contacts .list .item.item:not(:last-child) {
@@ -385,7 +386,6 @@
 
     .item {
         font-weight: 500;
-        line-height: 0.9;
         letter-spacing: 0.02em;
         text-decoration: none;
     }
